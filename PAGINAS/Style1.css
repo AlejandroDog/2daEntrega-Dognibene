@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+.NavBar {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    background-image: url(../imagenes/TEXTURA\ AZULVERDOSA.jpg);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Logo {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(71, 103, 131);
+}
+
+h1 {
+    font-style: oblique;
+
+}
+
+
+.Redes {
+    display: flex;
+    width: 50px;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Redes img {
+    width: 20px;
+    border: solid orange;
+    border-radius: 100%;
+
+
+
+}
+
+.Carrito {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    justify-items: end;
+
+    align-items: center;
+}
+
+.Carrito p {
+    color: rgb(255, 194, 72);
+
+}
+
+.Carrito img {
+    width: 20px;
+    border-radius: 100%;
+    border: solid orange;
+
+
+}
+
+/*Menu conexion con las demas paginas de Diseños*/
+.Menu {
+    max-width: 100%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 25px;
+    background-color: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color: rgb(239, 233, 176);
+    border-radius: 10px;
+
+}
+
+.Barra {
+    width: 50%;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.Buscador {
+    border: solid black;
+}
+
+/*MAIN seccion con los GIfs */
+
+.Gif {
+   
+    padding: 340px;
+    position: relative;
+    background-image: url(../imagenes/urban-rhapsody-a-dynamic-fusion-of-grungy-patchwork-and-eclectic-collage-in-vibrant-turquoise-and-sepia-tones-ai-generated-free-photo.jpg);
+
+}
+
+.Gif1 img {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border: solid black;
+
+}
+
+.Gif2 img {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    border: solid black;
+
+}
+
+.Gif3 img {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    left: 58%;
+    top: 58%;
+    border: solid black;
+
+}
+
+/*/////////////////////////////////////////*/
+
+.Promociones {
+    margin: 10px;
+    padding: 150px;
+    position: relative;
+
+}
+
+.Descuento img {
+    width: 750px;
+    height: 400px;
+    position: absolute;
+    left: 75px;
+    top: 5px;
+
+}
+
+.Descuento h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+
+}
+
+/*///////////////////////////////////////////////////////*/
+
+.Iconos {
+    width: 100%;
+    height: 180px;
+    border: solid black 5px;
+    margin-top: 150px;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 35px;
+    justify-content: space-evenly;
+
+}
+
+.auto img {
+    width: 40px;
+    height: 60px;
+    border: solid orange;
+    border-radius: 100%;
+    align-items: center;
+
+
+}
+
+.tarjeta img {
+    width: 40px;
+    height: 60px;
+    border: solid orange;
+    border-radius: 100%;
+
+
+
+
+}
+
+.celular img {
+    width: 40px;
+    height: 60px;
+    border: solid orange;
+    border-radius: 100%;
+
+
+
+}
+
+.codo img {
+    width: 40px;
+    height: 60px;
+    border: solid orange;
+    border-radius: 100%;
+
+
+
+}
+
+.Iconos p {
+    text-align: center;
+    font-size: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*////////////////////////////////////////////////*/
+
+
+
+.Nosotros {
+    width: 100%;
+    height: 250px;
+    margin: 10px;
+    border: solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Nosotros img {
+
+    align-items: center;
+}
+
+.Nosotros p {
+    text-align: center;
+    margin: 45px;
+    font-size: 10px;
+    font-family: cursive;
+
+}
+
+/*/////////////////////////////////////////////*/
+.Items {
+    margin: 100px;
+    padding: 100px;
+    background-color: none;
+    position: relative;
+    border: solid black;
+    top: 10px;
+}
+
+.Varios {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 25px;
+
+    text-align: center;
+}
+
+.Items p {
+    text-align: center;
+    margin: 45px;
+    position: absolute;
+    top: 70px;
+    bottom: 10px;
+}
+
+/*CSS PARA HTML DISEÑOS HOMBRE */
+
+.Productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin: 30px;
+    background-color: blanchedalmond;
+    border: solid black;
+    background-image: url(../imagenes/urban-rhapsody-a-dynamic-fusion-of-grungy-patchwork-and-eclectic-collage-in-vibrant-turquoise-and-sepia-tones-ai-generated-free-photo.jpg);
+}
+
+.Productos img {
+    width: 110px;
+    height: 90px;
+    border: solid white;
+    justify-content: space-around;
+
+}
+
+.Productos :hover img {
+    width: 130px;
+    height: 100px;
+    border: solid rgb(78, 208, 237);
+}
+
+.Productos h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+/*//////////////////////////////////////*/
+/*MEDIA QUERIES- falta acomodar bien cada una de las clases para que 
+puedan corresponder y adaptarse correctamente a cada pantalla/ falta de tiempo/*/
+@media screen and (max-width: 680px) {
+    body {
+        background-color: rgb(172, 172, 217);
+
+    }
+
+    .NavBar {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .Menu {
+        width: 300%;
+        margin-left: 15px;
+        flex-direction: column;
+
+    }
+
+    .Barra {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .Buscador {
+        width: 70%;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+
+    .Gif {
+
+        position: relative;
+        height: 100%;
+        width: 50%;
+        
+    }
+
+    .Gif1 img {
+        width: 400px;
+        height: 200px;
+        left: 55px;
+    }
+
+    .Gif2 img {
+        width: 400px;
+        height: 200px;
+        left: 55px;
+    }
+
+    .Gif3 img {
+        width: 400px;
+        height: 200px;
+        left: 55px;
+
+    }
+
+    .Descuento img {
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        left: 45px;
+
+    }
+
+    .Iconos {
+        margin-top: 50px;
+    }
+
+    .Iconos p {
+        font-size: 6px;
+    }
+
+    .Nosotros {
+
+        margin-top: 50px;
+    }
+
+    .Nosotros p {
+        margin: 9px;
+    }
+    .Iconos p {
+            font-size: 7px;
+        }
+
+    
+
+}
+
