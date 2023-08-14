@@ -146,14 +146,14 @@ h1 {
 .Descuento img {
     width: 750px;
     height: 400px;
-    position: absolute;
+   border: solid black;
     left: 75px;
     top: 5px;
 
 }
 
 .Descuento h2 {
-    position: absolute;
+    
     bottom: 10px;
     left: 40%;
 
@@ -309,7 +309,16 @@ h1 {
     font-size: 10px;
     padding: 10px;
 }
-
+/*Mujer */
+.NavBarMujer {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    background-image: url(../imagenes/);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
 
 /*//////////////////////////////////////*/
 /*MEDIA QUERIES- falta acomodar bien cada una de las clases para que 
@@ -344,7 +353,7 @@ puedan corresponder y adaptarse correctamente a cada pantalla/ falta de tiempo/*
     }
 
     .Gif {
-
+background-image: none;
         position: relative;
         height: 100%;
         width: 50%;
